@@ -10,6 +10,7 @@ int Sean(int a, int b){
 
 int main()
 {
+
     cout << "hello world what up :niyomal)" << endl;
     return 0;
 }
