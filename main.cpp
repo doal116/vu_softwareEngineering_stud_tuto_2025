@@ -11,6 +11,5 @@ int Sean(int a, int b){
 int main()
 {
     cout << "hello world what up :)" << endl;
-    
     return 0;
 }
