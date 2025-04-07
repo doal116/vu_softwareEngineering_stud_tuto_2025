@@ -5,6 +5,9 @@ using namespace std;
 
 int main()
 {
-    cout << "hello world what up :)" << endl;
+    cout << "hello world whats up :)" << endl;
     return 0;
+}
+int mahi(int a , int b){
+return a+b
 }
