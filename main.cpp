@@ -3,23 +3,9 @@
 
 using namespace std;
 
-int Sean(int a, int b){
-
-    return a + b;
-}
-
 int main()
 {
+    cout<<"Hello my name is George"<< endl;
 
-    cout << "hello world what up :niyomal)" << endl;
     return 0;
 }
-def funtion123()
-{
-    cout << "hello world what up :niyomal)" << endl;
-}int a = 1;
-int b = 2;
-int c;
-a+b = c;
-return 0;
-} 
