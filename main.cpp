@@ -45,7 +45,7 @@ struct Clac
     }
 
     int sub(a,b){
-        retrun a-b;
+        return a-b;
     };
 
 };
@@ -65,7 +65,7 @@ int main()
     GTA_PLAYER George;
     George.displayMoney();
 
-    
+
     Clac examples;
     examples.add(5,5);
     examples.sub(5,5);
