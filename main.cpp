@@ -1,19 +1,38 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
-int Mult(int a, int b){
-    cout << "I did this" << endl;
-    return a + b;
-}
-int Sean2(int a, int b){
-    cout << "I did this" << endl;
-    return a * b;
-}
+struct Calculator {
+    int a;
+    int b;
+
+    int add(int a,int b){
+        cout<< "the sum " << endl;
+        return a+b;
+    }
+
+    int sub(int a,int b){
+        cout<< "the subratration " << endl;
+        return a-b;
+    }
+
+    int mult(int a,int b){
+        cout<< "the multiplication" << endl;
+        return a*b;
+    }
+};
+
 
 int main()
 {
-    cout << "hello world what up :)" << endl;
+    vector<Calculator>numbers;
+
+    Calculator numbers1;
+    numbers1.a = 22;
+    numbers1.b = 10;
+    
+
     return 0;
 } 
