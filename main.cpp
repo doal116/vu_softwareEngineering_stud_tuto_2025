@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 struct Calculator {
     int a;
     int b;
@@ -32,7 +33,7 @@ int main()
     Calculator numbers1;
     numbers1.a = 22;
     numbers1.b = 10;
-    
+
 
     return 0;
 } 
