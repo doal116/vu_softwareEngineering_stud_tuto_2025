@@ -3,13 +3,10 @@
 
 using namespace std;
 
-int Sean(int a, int b){
+int main () {
+    cout << "Hey! This is Fuad here\n";
+    cout << "How are you all?" << endl;
 
-    return a + b;
-}
-
-int main()
-{
-    cout << "hello world what up :)" << endl;
     return 0;
+
 }
