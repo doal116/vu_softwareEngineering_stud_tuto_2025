@@ -31,20 +31,18 @@ struct GTA_PLAYER{
         };
 };
 
-struct Clac
+struct Calc
 {
-    int a;
-    int b;
 
-    int add(a,b){
+    int add(int a, int b){
         return a + b;
     };
 
-    int mult(a,b){
+    int mult(int a, int b){
         return a * b;
     }
 
-    int sub(a,b){
+    int sub(int a, int b){
         return a-b;
     };
 
@@ -66,10 +64,10 @@ int main()
     George.displayMoney();
 
 
-    Clac examples;
-    examples.add(5,5);
-    examples.sub(5,5);
-    examples.mult(5,5)
+    Calc examples;
+    cout << "Add: " << examples.add(5, 5) << endl;
+    cout << "Subtract: " << examples.sub(5, 5) << endl;
+    cout << "Multiply: " << examples.mult(5, 5) << endl;
 
     return 0;
 }
