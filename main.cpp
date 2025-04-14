@@ -5,8 +5,12 @@
 
 
 using namespace std;
+namespace bank{ 
 
-namespace actor{
+
+
+
+namespace external{
     struct client {
         string bankaccnum;
         string firstname;
@@ -20,11 +24,19 @@ namespace actor{
 
 }
 namespace internal {
-    struct manager {
+    struct asstmanager {
         string bankid;
         string firstname;
         string lastname;
     };
 
+}
+}
+namespace Bank:internal{
+    struct manager {
+        string bankid;
+        string firstname;
+        string lastname;
+    };
 }
 
