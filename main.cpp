@@ -1,40 +1,44 @@
 #include <iostream>
 #include <string>
 #include <vector>
+
 using namespace std;
 
-struct Identity{
-    int age;
-    string firstName;
-    string lastName;
+namespace Game{
 
-    int giveYearOfBirth(){
-        return 2025 - age;
+    struct Identity{
+        int age;
+        string firstName;
+        string lastName;
+    
+        int giveYearOfBirth(){
+            return 2025 - age;
+        };
     };
-};
-struct GTA_Player{
-    private:
-        double money=1;
-        void addMoney(){
-            money++;
-        };
-    public:
-        void displayMoney(){
-            cout << money<< endl;
-        };
-};
+    struct GTA_Player{
+        private:
+            double money=1;
+            void addMoney(){
+                money++;
+            };
+        public:
+            void displayMoney(){
+                cout << money<< endl;
+            };
+    };
+}
 
 int main()
 {
-    vector<Identity>listOfPerson;
+    vector<Game::Identity>listOfPerson;
 
-    Identity person1;
+    Game::Identity person1;
     person1.age=12;
     person1.firstName="alex" ;
     person1.lastName="bob";
 
     // cout << person1.giveYearOfBirth()<<endl;
-    GTA_Player batuhan;
+    Game::GTA_Player batuhan;
     batuhan.displayMoney();
     // vector<int>listOfPersonAge;
     // vector<string>listOfPersonfirstnamee;
