@@ -4,7 +4,8 @@
 
 using namespace std;
 
-namespace Actor {
+namespace Bank{
+namespace external {
     struct client {
     int accountnumber;
     string firstname;
@@ -27,14 +28,18 @@ namespace internal{
     };
        
 }
-
+}
 
 
 
 
 int main(){
 
-
-
+    Bank::internal::manager Person1;
+    Person1.workerid = 1234;
+    Person1.firstname = "Sean";
+    Person1.lastname = "Dewe";
+    
+    cout << Person1.workerid << Person1.firstname << Person1.lastname << endl;
     return 0;
 } 
