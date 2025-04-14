@@ -10,20 +10,20 @@ namespace actor{
         string firstname;
         string lastname;
 
-        string clientInfo(){
+        void clientInfo(){
             cout<<"Client " firstname, lastname " has recived his Bank Account number " BankAccNumber<<endl;
         }
 
-        struct teller
-        {
-            int workerId;
-            string firstname;
-            string lastname;
-
-
-        };
-        
     };
+    struct teller
+    {
+        int workerId;
+        string firstname;
+        string lastname;
+
+
+    };
+    
     
 }
 
