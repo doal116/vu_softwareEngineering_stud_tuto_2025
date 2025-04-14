@@ -4,45 +4,65 @@
 
 using namespace std;
 
-namespace Bank
+namespace AnimalKingdom
 {
-    namespace external
+    class Animal
     {
-        struct client
+    public:
+        int legs;
+        string name;
+        int age;
+        Animal(int l, string n, int a)
         {
-            int accountnumber;
-            string firstname;
-            string lastname;
-        };
-        struct teller
+            legs = l;
+            name = n;
+            age = a;
+        }
+        virtual void eat()
         {
-            int workerid;
-            string firstname;
-            string lastname;
+            cout << "I love food" << endl;
+        }
+    };
+    namespace landKingDom
+    {
+        class Dog : public Animal
+        {
+        public:
+            int ears;
+            Dog(int l, string n, int a, int e) : Animal(l, n, a)
+            {
+                ears = e;
+            }
+            void eat() override
+            {
+                cout << "I eat meat" << endl;
+            }
         };
+
     }
-
-    namespace internal
+    namespace waterKingDom
     {
-        struct manager
+        class shark : public Animal
         {
-            int workerid;
-            string priviledgeLevel;
-            string firstname;
-            string lastname;
+        public:
+            int teeth;
+            shark(int l, string n, int a, int te) : Animal(l, n, a)
+            {
+                teeth = te;
+            }
+            void eat() override
+            {
+                cout << "I eat people" << endl;
+            }
         };
-
     }
 }
-
 int main()
 {
+    AnimalKingdom::landKingDom::Dog dog1(4,"simba",12,2);
+    AnimalKingdom::waterKingDom::shark shark1(0,"nemo",100,1000);
 
-    Bank::internal::manager Person1;
-    Person1.workerid = 1234;
-    Person1.firstname = "Sean";
-    Person1.lastname = "Dewe";
-
-    cout << Person1.workerid << Person1.firstname << Person1.lastname << endl;
+    cout<<dog1.ears<<endl;
+    cout<<shark1.age<<endl;
     return 0;
 }
