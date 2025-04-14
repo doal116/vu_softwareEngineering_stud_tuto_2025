@@ -3,6 +3,7 @@
 #include <vector>
 
 using namespace std;
+namespace Game
 
 int main(){
     cout << "Hello world" << endl;
