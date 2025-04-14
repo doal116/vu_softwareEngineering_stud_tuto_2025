@@ -3,57 +3,70 @@
 #include <vector>
 
 using namespace std;
-namespace Bank{
+namespace AnimalKingDom{
+
+    class Animal{
+        public:
+            Animal(int legs, string name, int age){
+                legs = legs;
+                name = name;
+                age = age;
+            }
+
+            int legs;
+            string name;
+            int age;
+
+
+            void eat(){
+                cout<<"Water"<<endl;
+            };
+    };
     
-    namespace external{
-        struct client
+    namespace birdkingdom{
+
+        class parrot: public Animal
         {
-            string BankAccNumber;
-            string firstname;
-            string lastname;
-    
-           
-    
+            public: 
+
+                parrot(int legs, string name, int age, int wings, string color):Animal(legs,  name,  age){
+                    wings = wings;
+                    color = color; 
+                
+                }
+
+                int wings;
+                string color;
+                
+                void eat(){
+                    cout<<" seeds"<<endl;
+                }
+
         };
-        struct teller
-        {
-            int workerId;
-            string firstname;
-            string lastname;
-    
-    
-        };
-        
         
     }    
     
-    namespace internal{
-    
-        struct maneger
+    namespace landkingdom{
+        class dog: public Animal
         {
-            int id;
-            int privegelLevel;
-            string firstname;
-            string lastname;
+            
+            void eat(){
+                cout<<"bones"<<endl;
+            }
+
         };
         
-    
     }
     
 }
 
 int main(){
 
-  
+    AnimalKingDom::birdkingdom::parrot parrot1(2, "Luka", 12, 2, "Red");
 
-   Bank::internal::maneger manager;
-   manager.id = 5;
-   manager.privegelLevel = 100;
-   manager.firstname = "George";
-   manager.lastname = "Tsertsvadze";
+    cout<<"Prrot 1 has "<<parrot1.legs<<" legs his name is "<<parrot1.name<<" he is "<<parrot1.age<<" years old and has "
+    <<parrot1.wings<<" wings with color of "<<parrot1.color<<endl;
 
-   cout<<"Manager "<<manager.firstname<<" "<<manager.lastname<<" with id "<<manager.id<<" has PRVGLVL on "
-   <<manager.privegelLevel<<"%"<<endl;
 
 
 
