@@ -4,35 +4,36 @@
 
 using namespace std;
 
-
-struct Calculator {
-    int a;
-    int b;
-
-    int add(int a,int b){
-        cout<< "the sum " << endl;
-        return a+b;
-    }
-
-    int sub(int a,int b){
-        cout<< "the subratration " << endl;
-        return a-b;
-    }
-
-    int mult(int a,int b){
-        cout<< "the multiplication" << endl;
-        return a*b;
-    }
+namespace Actor {
+    struct client {
+    int accountnumber;
+    string firstname;
+    string lastname;  
 };
+   struct teller 
+   {
+     int workerid;
+     string firstname;
+     string lastname;
+   };
+}
+
+namespace internal{
+    struct manager {
+        int workerid;
+        string priviledgeLevel;
+        string firstname;
+        string lastname;  
+    };
+       
+}
 
 
-int main()
-{
-    vector<Calculator>numbers;
 
-    Calculator numbers1;
-    numbers1.a = 22;
-    numbers1.b = 10;
+
+
+int main(){
+
 
 
     return 0;
