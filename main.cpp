@@ -68,8 +68,6 @@ int main(){
     <<parrot1.wings<<" wings with color of "<<parrot1.color<<endl;
 
 
-
-
     return 0;
 }
 
