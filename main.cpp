@@ -24,19 +24,21 @@ namespace external{
 
 }
 namespace internal {
-    struct asstmanager {
-        string bankid;
-        string firstname;
-        string lastname;
-    };
-
-}
-}
-namespace Bank:internal{
     struct manager {
         string bankid;
         string firstname;
         string lastname;
     };
+
+}
 }
 
+int main() {
+    bank::internal::manager person1;
+    person1.bankid = "12345";
+    person1.firstname = "neo";
+    person1.lastname = "randy";
+    cout << "Manager id " << person1.bankid << endl;
+    cout << "Manager name " << person1.firstname << " " << person1.lastname << endl;
+
+}
