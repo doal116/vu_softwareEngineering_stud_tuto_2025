@@ -64,7 +64,14 @@ namespace CalcTask
 
 }
 int main()
+
 {
+
+    using Calculator = CalcTask::Calculator;
+    
+    Calculator calc1(1, 2);
+    cout << calc1.a << calc1.b << endl;
+    /*
     // unicodes
     //===========
     // TestOne
