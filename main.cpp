@@ -57,12 +57,36 @@ namespace AnimalKingdom
         };
     }
 }
+// alias
+using Dog = AnimalKingdom::landKingDom::Dog;
+
+// templating
+template <typename T>
+class Calculator
+{
+public:
+    T a;
+    T b;
+    Calculator(T a, T b)
+    {
+        this->a = a;
+        this->b = b;
+    }
+    T add()
+    {
+        return a + b;
+    }
+};
+
 int main()
 {
-    AnimalKingdom::landKingDom::Dog dog1(4,"simba",12,2);
-    AnimalKingdom::waterKingDom::shark shark1(0,"nemo",100,1000);
+    Calculator<int> math1(1,2);
+    Calculator<double> math1(1,2);
+    
+    Dog dog1(4, "simba", 12, 2);
+    AnimalKingdom::waterKingDom::shark shark1(0, "nemo", 100, 1000);
 
-    cout<<dog1.ears<<endl;
-    cout<<shark1.age<<endl;
+    cout << dog1.ears << endl;
+    cout << shark1.age << endl;
     return 0;
 }
