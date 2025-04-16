@@ -4,65 +4,130 @@
 
 using namespace std;
 
-namespace AnimalKingdom
+// create Alias named Calc
+
+namespace CalcTask
 {
-    class Animal
+    class Calculator
     {
     public:
-        int legs;
-        string name;
-        int age;
-        Animal(int l, string n, int a)
+        int a;
+        int b;
+        Calculator(int a, int b)
         {
-            legs = l;
-            name = n;
-            age = a;
+            this->a = a;
+            this->b = b;
         }
-        virtual void eat()
-        {
-            cout << "I love food" << endl;
-        }
-    };
-    namespace landKingDom
-    {
-        class Dog : public Animal
-        {
-        public:
-            int ears;
-            Dog(int l, string n, int a, int e) : Animal(l, n, a)
-            {
-                ears = e;
-            }
-            void eat() override
-            {
-                cout << "I eat meat" << endl;
-            }
-        };
+        // Greatest Common Divisor 48 18 gcd = 6 : name gcd | a int b int
 
-    }
-    namespace waterKingDom
-    {
-        class shark : public Animal
-        {
-        public:
-            int teeth;
-            shark(int l, string n, int a, int te) : Animal(l, n, a)
-            {
-                teeth = te;
-            }
-            void eat() override
-            {
-                cout << "I eat people" << endl;
-            }
-        };
-    }
+        // Exponentiation 2^3 = 8: name exp | a base b exponent
+
+        // Factorial 4! = 4x3x2x1 = 24: name fact | only use a. b can be eqaual to 0
+
+        // Least Common Multiple 12 18 LCM = 36 : name lcm | a int b int
+    };
+
 }
 int main()
 {
-    AnimalKingdom::landKingDom::Dog dog1(4,"simba",12,2);
-    AnimalKingdom::waterKingDom::shark shark1(0,"nemo",100,1000);
+    CalcTask::Calculator calc1(1, 2);
+    cout << calc1.a << calc1.b << endl;
+    /*
+    // unicodes
+    const string GREEN = "\033[32m";
+    const string RED = "\033[31m";
+    const string RESET = "\033[0m";
 
-    cout<<dog1.ears<<endl;
-    cout<<shark1.age<<endl;
+    const string CHECK = "\u2714";
+    const string CROSS = "\u274C";
+
+    //===========
+    // TestOne
+    //===========
+    vector<int> test1Expected = {3, 5, 7, 6, 7, 12, 15, 20};
+    vector<CalcTask::Calculator> test1 = {
+        CalcTask::Calculator(6, 9),   // GCD is 3
+        CalcTask::Calculator(10, 15), // GCD is 5
+        CalcTask::Calculator(14, 35), // GCD is 7
+        CalcTask::Calculator(18, 24), // GCD is 6
+        CalcTask::Calculator(21, 28), // GCD is 7
+        CalcTask::Calculator(24, 36), // GCD is 12
+        CalcTask::Calculator(30, 45), // GCD is 15
+        CalcTask::Calculator(40, 60)  // GCD is 20
+    };
+
+    for (int i = 0; i < test1.size(); i++)
+    {
+        if (test1[i].gcd() == test1Expected[i])
+            cout << GREEN << CHECK << RESET << "gcd of: " << test1[i].a << " | " << test1[i].b << " is " << test1[i].gcd();
+        else
+            cout << RED << CROSS << RESET << "gcd of: " << test1[i].a << " | " << test1[i].b << " is not " << test1[i].gcd();
+    }
+
+    //===========
+    // TestTwo
+    //===========
+    vector<long long> test2Expected = {1, 16, 27, 1024, 3125, 36, 128, 81};
+    vector<CalcTask::Calculator> test2 = {
+        CalcTask::Calculator(2, 0),
+        CalcTask::Calculator(2, 4),
+        CalcTask::Calculator(3, 3),
+        CalcTask::Calculator(4, 5),
+        CalcTask::Calculator(5, 5),
+        CalcTask::Calculator(6, 2),
+        CalcTask::Calculator(2, 7),
+        CalcTask::Calculator(3, 4)};
+    for (int i = 0; i < test1.size(); i++)
+    {
+        if (test2[i].exp() == test2Expected[i])
+            cout << GREEN << CHECK << RESET << "exp of: " << test1[i].a << " to the power of " << test1[i].b << " is " << test1[i].exp();
+        else
+            cout << RED << CROSS << RESET << "exp of: " << test1[i].a << " to the power of " << test1[i].b << " is not " << test1[i].exp();
+    }
+
+    //===========
+    // TestThree
+    //===========
+    vector<long long> test3Expected = {1, 1, 2, 6, 24, 120, 720, 40320};
+
+    vector<CalcTask::Calculator> test3 = {
+        CalcTask::Calculator(0, 0),
+        CalcTask::Calculator(1, 0),
+        CalcTask::Calculator(2, 0),
+        CalcTask::Calculator(3, 0),
+        CalcTask::Calculator(4, 0),
+        CalcTask::Calculator(5, 0),
+        CalcTask::Calculator(6, 0),
+        CalcTask::Calculator(8, 0)};
+    for (int i = 0; i < test1.size(); i++)
+    {
+        if (test3[i].fact() == test3Expected[i])
+            cout << GREEN << CHECK << RESET << "fact of: " << test3[i].a << " is " << test3[i].fact();
+        else
+            cout << RED << CROSS << RESET << "fact of: " << test3[i].a << " is not " << test3[i].fact();
+    }
+
+    //===========
+    // TestFour
+    //===========
+    vector<long long> test4Expected = {6, 20, 21, 40, 36, 60, 45, 56};
+
+    vector<CalcTask::Calculator> test4 = {
+        CalcTask::Calculator(2, 3),
+        CalcTask::Calculator(4, 5),
+        CalcTask::Calculator(3, 7),
+        CalcTask::Calculator(8, 5),
+        CalcTask::Calculator(12, 18),
+        CalcTask::Calculator(10, 12),
+        CalcTask::Calculator(9, 15),
+        CalcTask::Calculator(7, 8)};
+
+    for (int i = 0; i < test1.size(); i++)
+    {
+        if (test4[i].lcm() == test4Expected[i])
+            cout << GREEN << CHECK << RESET << "fact of: " << test4[i].a << " is " << test4[i].lcm();
+        else
+            cout << RED << CROSS << RESET << "fact of: " << test4[i].a << " is not " << test4[i].lcm();
+    }*/
     return 0;
 }
