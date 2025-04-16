@@ -69,8 +69,9 @@ int main()
 
     AnimalKingDom::birdkingdom::parrot parrot1(2, "Luka", 12, 2, "Red");
 
-    cout << "Prrot 1 has " << parrot1.legs << " legs his name is " << parrot1.name << " he is " << parrot1.age << " years old and has "
-         << parrot1.wings << " wings with color of " << parrot1.color << endl;
+
+    cout<<"Prrot 1 has "<<parrot1.legs<<" legs his name is "<<parrot1.name<<" he is "<<parrot1.age<<" years old and has "
+    <<parrot1.wings<<" wings with color of "<<parrot1.color<<endl;
 
     return 0;
 }
