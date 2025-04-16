@@ -58,8 +58,11 @@ namespace CalcTask
 
 }
 int main()
+
 {
-    CalcTask::Calculator calc1(1, 2);
+    using Calculator = CalcTask::Calculator;
+    
+    Calculator calc1(1, 2);
     cout << calc1.a << calc1.b << endl;
     /*
     // unicodes
