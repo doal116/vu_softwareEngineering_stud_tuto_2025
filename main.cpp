@@ -19,12 +19,41 @@ namespace CalcTask
             this->b = b;
         }
         // Greatest Common Divisor 48 18 gcd = 6 : name gcd | a int b int
+        int gcd(){
+            int a = a, b = b;
+            while (b != 0){
+                int temp = b;
+                b = a % b;
+                a = temp;
+            }
+            return a;
+            
+        }
+
 
         // Exponentiation 2^3 = 8: name exp | a base b exponent
+        int exp(){
+            int result = 1;
+            for (int i = 0; i < b; i++){
+                result *= a;
+            }
+            return result;
+        }
 
         // Factorial 4! = 4x3x2x1 = 24: name fact | only use a. b can be eqaual to 0
+        int fact(){
+            if (a<0)return -1;
+            int result =1;
+            for (int i = 2; i <= a; i++){
+                result *i;
+            }
+        }
+
 
         // Least Common Multiple 12 18 LCM = 36 : name lcm | a int b int
+        int lcm(){
+            return (a*b)/ gcd();
+        }
     };
 
 }
