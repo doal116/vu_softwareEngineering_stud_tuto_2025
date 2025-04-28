@@ -1,36 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net8.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\alexb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\vu_softwareEngineering_stud_tuto_2025\\Step1\\Step1.csproj",
+      "projectUniqueName": "C:\\Users\\alexb\\OneDrive\\Documents\\GitHub\\vu_softwareEngineering_stud_tuto_2025\\Step1\\Step1.csproj",
       "projectName": "Step1",
-      "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\vu_softwareEngineering_stud_tuto_2025\\Step1\\Step1.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\vu_softwareEngineering_stud_tuto_2025\\Step1\\obj\\",
+      "projectPath": "C:\\Users\\alexb\\OneDrive\\Documents\\GitHub\\vu_softwareEngineering_stud_tuto_2025\\Step1\\Step1.csproj",
+      "packagesPath": "C:\\Users\\alexb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alexb\\OneDrive\\Documents\\GitHub\\vu_softwareEngineering_stud_tuto_2025\\Step1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\alexb\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -38,17 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -65,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.112/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
