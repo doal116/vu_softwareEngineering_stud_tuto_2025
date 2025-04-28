@@ -1,0 +1,15 @@
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\obj\Debug\net9.0\AminsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\obj\Debug\net9.0\AminsApp.AssemblyInfoInputs.cache
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\obj\Debug\net9.0\AminsApp.AssemblyInfo.cs
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\obj\Debug\net9.0\AminsApp.csproj.CoreCompileInputs.cache
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\obj\Debug\net9.0\AminsApp.sourcelink.json
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\bin\Debug\net9.0\AminsApp.exe
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\bin\Debug\net9.0\AminsApp.deps.json
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\bin\Debug\net9.0\AminsApp.runtimeconfig.json
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\bin\Debug\net9.0\AminsApp.dll
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\bin\Debug\net9.0\AminsApp.pdb
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\obj\Debug\net9.0\AminsApp.dll
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\obj\Debug\net9.0\refint\AminsApp.dll
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\obj\Debug\net9.0\AminsApp.pdb
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\obj\Debug\net9.0\AminsApp.genruntimeconfig.cache
+C:\Users\EMIN\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\AminsApp\obj\Debug\net9.0\ref\AminsApp.dll
