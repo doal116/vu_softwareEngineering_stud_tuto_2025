@@ -1,0 +1,15 @@
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\obj\Debug\net9.0\Step1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\obj\Debug\net9.0\Step1.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\obj\Debug\net9.0\Step1.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\obj\Debug\net9.0\Step1.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\obj\Debug\net9.0\Step1.sourcelink.json
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\bin\Debug\net9.0\Step1.exe
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\bin\Debug\net9.0\Step1.deps.json
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\bin\Debug\net9.0\Step1.runtimeconfig.json
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\bin\Debug\net9.0\Step1.dll
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\bin\Debug\net9.0\Step1.pdb
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\obj\Debug\net9.0\Step1.dll
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\obj\Debug\net9.0\refint\Step1.dll
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\obj\Debug\net9.0\Step1.pdb
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\obj\Debug\net9.0\Step1.genruntimeconfig.cache
+C:\Users\HP\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\Step1\obj\Debug\net9.0\ref\Step1.dll
