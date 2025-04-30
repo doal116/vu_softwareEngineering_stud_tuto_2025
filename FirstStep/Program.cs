@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using design;
 //name of struct : Worker
 //Properties
     //firstname alex
@@ -39,6 +40,8 @@ namespace FirstStep
 
             for (int i = 0; i < students.Count; ++i)
                 students[i].whoIsThis();
+            Design.blueButton(); 
+            MathUtils.addition();
             
         }
     }
