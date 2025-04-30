@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\bin\Debug\net9.0\FirstStep.exe
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\bin\Debug\net9.0\FirstStep.deps.json
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\bin\Debug\net9.0\FirstStep.runtimeconfig.json
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\bin\Debug\net9.0\FirstStep.dll
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\bin\Debug\net9.0\FirstStep.pdb
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\obj\Debug\net9.0\FirstStep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\obj\Debug\net9.0\FirstStep.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\obj\Debug\net9.0\FirstStep.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\obj\Debug\net9.0\FirstStep.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\obj\Debug\net9.0\FirstStep.sourcelink.json
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\obj\Debug\net9.0\FirstStep.dll
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\obj\Debug\net9.0\refint\FirstStep.dll
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\obj\Debug\net9.0\FirstStep.pdb
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\obj\Debug\net9.0\FirstStep.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\FirstStep\obj\Debug\net9.0\ref\FirstStep.dll
