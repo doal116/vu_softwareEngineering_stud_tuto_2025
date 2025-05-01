@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\bin\Debug\net9.0-windows\TouchPad.exe
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\bin\Debug\net9.0-windows\TouchPad.deps.json
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\bin\Debug\net9.0-windows\TouchPad.runtimeconfig.json
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\bin\Debug\net9.0-windows\TouchPad.dll
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\bin\Debug\net9.0-windows\TouchPad.pdb
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\obj\Debug\net9.0-windows\TouchPad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\obj\Debug\net9.0-windows\TouchPad.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\obj\Debug\net9.0-windows\TouchPad.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\obj\Debug\net9.0-windows\TouchPad.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\obj\Debug\net9.0-windows\TouchPad.sourcelink.json
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\obj\Debug\net9.0-windows\TouchPad.dll
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\obj\Debug\net9.0-windows\refint\TouchPad.dll
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\obj\Debug\net9.0-windows\TouchPad.pdb
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\obj\Debug\net9.0-windows\TouchPad.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\TouchPad\obj\Debug\net9.0-windows\ref\TouchPad.dll
