@@ -21,9 +21,13 @@ namespace TouchPad{
         base.Dispose(disposing);
     }
     
-    private int _padsize=30;
+    private int _padsize=50;
 
     private int _padGap = 10;
+
+    private System.Windows.Forms.Label _screen;
+
+    private List<string> _userInputList = new List<string>();
     private void pad(){
         
             int shiftYaxis = 0;
@@ -41,15 +45,47 @@ namespace TouchPad{
                     shiftYaxis++;
                     shiftXaxis = 0;
                 }
+                numpad.Click += handleNumPads;
+
                 numpad.Location= new System.Drawing.Point(
                 _padsize + (shiftXaxis * _padsize + (shiftXaxis * _padGap )), //x-axis
                 30 + (shiftYaxis * _padsize)); // y-axis
                 
                 this.Controls.Add(numpad);
                 shiftXaxis++;
-            }   
-        
+            }      
     }
+
+    private void screen(){
+        _screen = new Label();
+        _screen.Size = new System.Drawing.Size(((_padsize + _padGap) * 3) - _padGap, _padsize);
+        _screen.Name = "screenDisplay";
+        _screen.Text = "Hello World!";
+        _screen.Location = new System.Drawing.Point(_padsize, 0);
+        _screen.BackColor = System.Drawing.Color.Red;
+        this.Controls.Add(_screen);
+    }
+
+    private void eraseBtn(){
+            Button AC = new Button();
+            AC.Text = "AC";
+            AC.Name = "EraseButton";
+            AC.Size = new System.Drawing.Size(_padsize,_padsize);
+            AC.Location = new System.Drawing.Point(_padsize, _padsize*5);
+            AC.Click += eraseMethod;
+            this.Controls.Add(AC);
+            
+    }
+
+    private void userInput(){
+        Button userInput = new Button();
+        userInput.Text = "Show List";
+        userInput.Size = new System.Drawing.Size(_padsize * 3, _padsize);
+        userInput.Location = new System.Drawing.Point(_padsize * 2, _padsize*5);
+        userInput.Click += seeList;
+        this.Controls.Add(userInput);
+    }
+
     #region Windows Form Designer generated code
 
     /// <summary>
@@ -63,7 +99,10 @@ namespace TouchPad{
         this.ClientSize = new System.Drawing.Size(800, 450);
         this.Text = "Form1";
 
+        this.screen();
         this.pad();
+        this.eraseBtn();
+        this.userInput();
     }
 
     #endregion
