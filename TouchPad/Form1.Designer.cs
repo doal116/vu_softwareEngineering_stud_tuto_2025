@@ -23,6 +23,8 @@ namespace TouchPad
         }
         private int _padSize = 30;
         private int _padGap = 10;
+        private System.Windows.Forms.Label _screen;
+        private List<string> _userInputList=new List<string>();
         private void pad()
         {
             int shiftYaxis = 0;
@@ -39,6 +41,7 @@ namespace TouchPad
                     shiftYaxis++;
                     shiftXaxis = 0;
                 }
+                numpad.Click += handleNumPads;
                 numpad.Location = new System.Drawing.Point(
                     _padSize + (shiftXaxis * _padSize + (shiftXaxis * _padGap)), // x-axis
                     30 + (shiftYaxis * _padSize)); // y-axis
@@ -46,6 +49,23 @@ namespace TouchPad
                 shiftXaxis++;
             }
 
+        }
+        private void screen(){
+            _screen=new Label();
+            _screen.Size =new System.Drawing.Size(((_padGap+_padSize)*3)-_padGap, _padSize);
+            _screen.Name = "screenDisplay";
+            _screen.Text = "Hello world!";
+            _screen.Location= new System.Drawing.Point(_padSize,0);
+            _screen.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(_screen);
+        }
+        private void userInput(){
+            Button userInput = new Button();
+            userInput.Text = "Show List";
+            userInput.Size = new System.Drawing.Size(_padSize*3,_padSize);
+            userInput.Location = new System.Drawing.Point(_padSize,_padSize*5);
+            userInput.Click+=seeList;
+            this.Controls.Add(userInput);
         }
         #region Windows Form Designer generated code
 
@@ -59,8 +79,9 @@ namespace TouchPad
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Form1";
-
+            this.screen();
             this.pad();
+            this.userInput();
         }
 
         #endregion
