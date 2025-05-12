@@ -28,63 +28,28 @@ namespace TouchPad{
     private System.Windows.Forms.Label _screen;
 
     private List<string> _userInputList = new List<string>();
-    private void pad(){
-        
-            int shiftYaxis = 0;
-            int shiftXaxis = 0;
-    
-            for(int i=0; i<9; i++)
-            {   
-               
-                Button numpad = new Button();
-                numpad.Text =$"{i}";
-
-                numpad.Name = $"heyButton{i}";
-                numpad.Size = new System.Drawing.Size(_padsize, _padsize);
-                if(i % 3 == 0){
-                    shiftYaxis++;
-                    shiftXaxis = 0;
-                }
-                numpad.Click += handleNumPads;
-
-                numpad.Location= new System.Drawing.Point(
-                _padsize + (shiftXaxis * _padsize + (shiftXaxis * _padGap )), //x-axis
-                30 + (shiftYaxis * _padsize)); // y-axis
-                
-                this.Controls.Add(numpad);
-                shiftXaxis++;
-            }      
-    }
-
     private void screen(){
         _screen = new Label();
-        _screen.Size = new System.Drawing.Size(((_padsize + _padGap) * 3) - _padGap, _padsize);
+        _screen.Size = new System.Drawing.Size(((_padsize + _padGap) * 10) - _padGap, 200);
         _screen.Name = "screenDisplay";
-        _screen.Text = "Hello World!";
+        _screen.Text = "Hello world";
+
         _screen.Location = new System.Drawing.Point(_padsize, 0);
-        _screen.BackColor = System.Drawing.Color.Red;
+        _screen.BackColor = System.Drawing.Color.White;
         this.Controls.Add(_screen);
     }
 
-    private void eraseBtn(){
-            Button AC = new Button();
-            AC.Text = "AC";
-            AC.Name = "EraseButton";
-            AC.Size = new System.Drawing.Size(_padsize,_padsize);
-            AC.Location = new System.Drawing.Point(_padsize, _padsize*5);
-            AC.Click += eraseMethod;
-            this.Controls.Add(AC);
-            
+    private void showbtn(){
+            Button ShowF = new Button();
+            ShowF.Text = "Show text";
+            ShowF.Name = "Shows file";
+            ShowF.Size = new System.Drawing.Size(_padsize,_padsize);
+            ShowF.Location = new System.Drawing.Point(_padsize, _padsize*5);
+            ShowF.Click += showFile;
+            this.Controls.Add(ShowF);
     }
 
-    private void userInput(){
-        Button userInput = new Button();
-        userInput.Text = "Show List";
-        userInput.Size = new System.Drawing.Size(_padsize * 3, _padsize);
-        userInput.Location = new System.Drawing.Point(_padsize * 2, _padsize*5);
-        userInput.Click += seeList;
-        this.Controls.Add(userInput);
-    }
+   
 
     #region Windows Form Designer generated code
 
@@ -100,9 +65,7 @@ namespace TouchPad{
         this.Text = "Form1";
 
         this.screen();
-        this.pad();
-        this.eraseBtn();
-        this.userInput();
+        this.showbtn();
     }
 
     #endregion

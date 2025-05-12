@@ -16,13 +16,23 @@ namespace TouchPad
             _userInputList.Add(_screen.Text);
         }
 
-        private void seeList(object send, EventArgs e){
-            _screen.Text = string.Join("", _userInputList);
+        private void showFile(object senders, EventArgs e){
+            Button reciveBtn = (Button) senders;
+            _screen.Text = ReadFile();
         }
 
-        private void eraseMethod(object Snd, EventArgs e){
-            Button reciveButton = (Button) Snd;
-            _screen.Text = "Empty";
+         private string ReadFile(){
+            StreamReader sr = new StreamReader("Cow.txt");
+            string line = sr.ReadLine();
+            string result = line + " \n";
+            while(line != null)
+            {
+                line = sr.ReadLine();
+                result += line;
+                result += " \n";
+            }
+            sr.Close();
+            return result;
         }
 
     
