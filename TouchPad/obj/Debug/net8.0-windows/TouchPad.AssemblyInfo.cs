@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TouchPad")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73a3416a6fe6cd6f1abccaecb1e5cf370d850c10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f4032a79489fe23586487b6e831009763f5ca4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TouchPad")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TouchPad")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

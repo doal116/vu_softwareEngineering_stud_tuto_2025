@@ -30,7 +30,7 @@ namespace TouchPad{
     private List<string> _userInputList = new List<string>();
     private void screen(){
         _screen = new Label();
-        _screen.Size = new System.Drawing.Size(((_padsize + _padGap) * 10) - _padGap, 200);
+        _screen.Size = new System.Drawing.Size(((_padsize + _padGap) * 10) - _padGap, 100);
         _screen.Name = "screenDisplay";
         _screen.Text = "Hello world";
 
@@ -41,10 +41,10 @@ namespace TouchPad{
 
     private void showbtn(){
             Button ShowF = new Button();
-            ShowF.Text = "Show text";
+            ShowF.Text = "Read file";
             ShowF.Name = "Shows file";
             ShowF.Size = new System.Drawing.Size(_padsize,_padsize);
-            ShowF.Location = new System.Drawing.Point(_padsize, _padsize*5);
+            ShowF.Location = new System.Drawing.Point(_padsize, _padsize*2);
             ShowF.Click += showFile;
             this.Controls.Add(ShowF);
     }
