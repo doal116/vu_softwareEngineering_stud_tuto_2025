@@ -1,0 +1,15 @@
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\obj\Debug\net8.0\listner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\obj\Debug\net8.0\listner.AssemblyInfoInputs.cache
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\obj\Debug\net8.0\listner.AssemblyInfo.cs
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\obj\Debug\net8.0\listner.csproj.CoreCompileInputs.cache
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\obj\Debug\net8.0\listner.sourcelink.json
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\bin\Debug\net8.0\listner.exe
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\bin\Debug\net8.0\listner.deps.json
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\bin\Debug\net8.0\listner.runtimeconfig.json
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\bin\Debug\net8.0\listner.dll
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\bin\Debug\net8.0\listner.pdb
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\obj\Debug\net8.0\listner.dll
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\obj\Debug\net8.0\refint\listner.dll
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\obj\Debug\net8.0\listner.pdb
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\obj\Debug\net8.0\listner.genruntimeconfig.cache
+C:\Users\alexb\OneDrive\Documents\GitHub\vu_softwareEngineering_stud_tuto_2025\listner\obj\Debug\net8.0\ref\listner.dll
