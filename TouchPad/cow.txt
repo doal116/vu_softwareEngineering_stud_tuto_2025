@@ -1,4 +1,4 @@
 I am a cow.
-cows love grass.
-cows are shaded with different colors.
-cows provide us with the milk.
+cows love grass, but cows can also eat meat.
+cows are shaded with different colors, and cows are lovely.
+cows provide us with the milk, and with steak.

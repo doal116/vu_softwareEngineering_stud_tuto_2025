@@ -42,14 +42,21 @@ namespace TouchPad
         {
             StreamReader sr = new StreamReader("cow.txt");
             string line = sr.ReadLine();
-            string result ="";
+            string result = (this.countWordPerLine(line)).ToString() + "\n";
             while (line != null)
             {
                 line = sr.ReadLine();
-                result += line;
+                if (line != null) result += (this.countWordPerLine(line)).ToString() + "\n";
+
             }
             sr.Close();
             return result;
+        }
+        private int countWordPerLine(string line)
+        {
+            string[] listOfWords = line.Split(" ");
+            int num_words = listOfWords.Length;
+            return num_words;
         }
         #region Windows Form Designer generated code
 
